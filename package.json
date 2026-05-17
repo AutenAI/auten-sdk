@@ -7,10 +7,10 @@
   "homepage": "https://auten.ai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/auten-ai/sdk.git"
+    "url": "git+https://github.com/AutenAI/auten-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/auten-ai/sdk/issues"
+    "url": "https://github.com/AutenAI/auten-sdk/issues"
   },
   "type": "module",
   "main": "dist/src/index.js",
