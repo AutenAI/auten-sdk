@@ -1,6 +1,23 @@
-# @autenai/sdk
+<p align="center">
+  <a href="https://auten.ai">
+    <img src="https://auten.ai/logos/logo-512.png" alt="Auten" width="120" height="120" />
+  </a>
+</p>
 
-> Programmatic control of Android phones via the Auten relay — send tasks in plain English, query device state, manage encrypted credentials, watch live screens. SDK + CLI in one package.
+<h1 align="center">@autenai/sdk</h1>
+
+<p align="center">
+  Programmatic control of Android phones via the Auten relay — send tasks in
+  plain English, query device state, manage encrypted credentials, watch live
+  screens. SDK + CLI in one package.
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@autenai/sdk"><img src="https://img.shields.io/npm/v/@autenai/sdk?color=2ea44f&label=npm" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/@autenai/sdk"><img src="https://img.shields.io/npm/dm/@autenai/sdk?color=2ea44f" alt="npm downloads" /></a>
+  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT" />
+  <img src="https://img.shields.io/badge/node-%3E%3D18.17-brightgreen" alt="Node 18.17+" />
+</p>
 
 ```bash
 npm install @autenai/sdk
@@ -71,7 +88,7 @@ You don't pick which path runs; the relay does. Your code just calls `auten.task
 
 ### 1. Get a key
 
-Sign up at https://auten.ai, or contact your relay operator. Keys look like `sk_live_<48 hex>`.
+Sign up at <https://auten.ai> and mint a key from **Settings → API Keys**. Keys look like `sk_live_<48 hex>`.
 
 ### 2. Save it
 
